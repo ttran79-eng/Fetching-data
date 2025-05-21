@@ -1,8 +1,8 @@
-// File: C:\Users\Tin Tran School\Desktop\Nextjs Sectoin 4\01-starting-project\app\archive\@archive\[year]\page.js
-import * as entry from '../../../../../../app/archive/@archive/[year]/page.js'
+// File: C:\Users\Tin Tran School\Desktop\Nextjs Sectoin 4\01-starting-project\app\archive\@archive\[[...filter]]\page.js
+import * as entry from '../../../../../../app/archive/@archive/[[...filter]]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
-type TEntry = typeof import('../../../../../../app/archive/@archive/[year]/page.js')
+type TEntry = typeof import('../../../../../../app/archive/@archive/[[...filter]]/page.js')
 
 // Check that the entry is a valid entry
 checkFields<Diff<{

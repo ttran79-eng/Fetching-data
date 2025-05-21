@@ -6,7 +6,7 @@
  * or disable the default devtool with "devtool: false".
  * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
  */
-(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/archive/@archive/page"],{
+(self["webpackChunk_N_E"] = self["webpackChunk_N_E"] || []).push([["app/archive/@archive/[[...filter]]/page"],{
 
 /***/ "(app-pages-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-client-entry-loader.js?modules=C%3A%5CUsers%5CTin%20Tran%20School%5CDesktop%5CNextjs%20Sectoin%204%5C01-starting-project%5Cnode_modules%5Cnext%5Cdist%5Cclient%5Clink.js&server=false!":
 /*!*********************************************************************************************************************************************************************************************************************************************************!*\
