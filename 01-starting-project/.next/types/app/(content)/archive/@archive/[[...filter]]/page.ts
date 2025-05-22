@@ -1,4 +1,4 @@
-// File: C:\Users\Student\Desktop\Routing-and-page-rendering\01-starting-project\app\(content)\archive\@archive\[[...filter]]\page.js
+// File: C:\Users\Student\Desktop\Fetching-Data\01-starting-project\app\(content)\archive\@archive\[[...filter]]\page.js
 import * as entry from '../../../../../../../app/(content)/archive/@archive/[[...filter]]/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

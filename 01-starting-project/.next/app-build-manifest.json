@@ -11,21 +11,16 @@
       "static/css/app/(marketing)/layout.css",
       "static/chunks/app/(marketing)/layout.js"
     ],
-    "/(content)/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/(content)/layout.css",
-      "static/chunks/app/(content)/layout.js"
-    ],
     "/(content)/not-found": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(content)/not-found.js"
     ],
-    "/(content)/news/page": [
+    "/(content)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(content)/news/page.js"
+      "static/css/app/(content)/layout.css",
+      "static/chunks/app/(content)/layout.js"
     ],
     "/(content)/archive/layout": [
       "static/chunks/webpack.js",
@@ -47,15 +42,20 @@
       "static/chunks/main-app.js",
       "static/chunks/app/(content)/archive/@archive/[[...filter]]/error.js"
     ],
-    "/(content)/news/[slug]/layout": [
+    "/(content)/news/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/(content)/news/[slug]/layout.js"
+      "static/chunks/app/(content)/news/page.js"
     ],
     "/(content)/news/[slug]/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(content)/news/[slug]/page.js"
+    ],
+    "/(content)/news/[slug]/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/(content)/news/[slug]/layout.js"
     ],
     "/(content)/news/[slug]/not-found": [
       "static/chunks/webpack.js",
@@ -71,6 +71,11 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/(content)/news/[slug]/@modal/(.)image/page.js"
+    ],
+    "/not-found": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/not-found.js"
     ]
   }
 }

@@ -1,4 +1,4 @@
-// File: C:\Users\Student\Desktop\Routing-and-page-rendering\01-starting-project\app\(marketing)\layout.js
+// File: C:\Users\Student\Desktop\Fetching-Data\01-starting-project\app\(marketing)\layout.js
 import * as entry from '../../../../app/(marketing)/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
